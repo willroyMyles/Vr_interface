@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>LeftBox.qml</file>
+        <file>RightBox.qml</file>
+        <file>DownloadableScene.qml</file>
+        <file>MiddleBox.qml</file>
+        <file>Rect.qml</file>
+        <file>BottomBox.qml</file>
+        <file>ClickableButton.qml</file>
+        <file>images/icons8-add-to-collection-filled-100.png</file>
+        <file>images/icons8-automatic-filled-100.png</file>
+        <file>images/icons8-available-updates-filled-100.png</file>
+        <file>images/icons8-cloud-filled-100.png</file>
+        <file>images/icons8-exterior-filled-100.png</file>
+        <file>images/icons8-library-filled-100.png</file>
+        <file>images/icons8-arrow-left-filled-100.png</file>
+        <file>images/icons8-arrow-right-filled-100.png</file>
+        <file>CustomButton.qml</file>
+        <file>images/icons8-cancel.svg</file>
+        <file>images/icons8-cancel-filled-500.png</file>
+    </qresource>
+</RCC>
