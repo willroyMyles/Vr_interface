@@ -8,8 +8,8 @@ Pane {
 
     property string imageString: ""
     property string val: ""
-    property bool leftBoderVal: true
     property bool rightBorderVal: true
+    property string backgroundColor: ""
     Layout.fillHeight: true
     Layout.fillWidth: true
 
@@ -19,7 +19,7 @@ Pane {
     background: Rectangle{
         border.color: "#333"
         border.width: 0
-        color: "#00000000"
+        color: backgroundColor == "" ? "#00000000" : backgroundColor
     }
 
     padding: 30
@@ -59,11 +59,11 @@ Pane {
 
         DropShadow {
                anchors.fill: image
-               horizontalOffset: 3
-               verticalOffset: 3
-               radius: 8.0
+               horizontalOffset: 0
+               verticalOffset: 0
+               radius: 14.0
                samples: 17
-               color: "#000"
+               color: "#99000000"
                source: image
            }
 

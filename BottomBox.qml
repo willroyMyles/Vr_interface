@@ -20,6 +20,7 @@ Pane {
         ClickableButton{
             imageString:  "images/icons8-library-filled-100.png"
             val : "Library"
+            backgroundColor: "#006def"
         }
 
         ClickableButton{
